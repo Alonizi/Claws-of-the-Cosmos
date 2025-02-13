@@ -55,15 +55,17 @@ public class EnemySpawner : MonoBehaviour
         {
             
             int yAxis;
-            int xAxis = Random.Range(-12, 12);
-            if (xAxis > -10 && xAxis < 10)
+            int xAxis = Random.Range(-30,25);
+            if (xAxis > -18 && xAxis < 18)
             {
-                yAxis = Random.Range(-6,-8);
+                yAxis = Random.Range(-12,-10);
+                yAxis *= Random.Range(0, 2) * 2 - 1;
             }
             else
             {
-                yAxis = Random.Range(-7, 7);
+                yAxis = Random.Range(5, 10);
             }
+            
             var enemy = Instantiate(Enemy1, new Vector2(xAxis, yAxis), Quaternion.identity);
             var enemyWeaponController = enemy.GetComponent<EnemyWeaponController>();
             var enemyController = enemy.GetComponent<EnemyController>();
@@ -76,14 +78,15 @@ public class EnemySpawner : MonoBehaviour
         for (int i = RogueModifier_EnemyFan_SpawnLevel; i <= Level && Level <= RogueModifier_EnemyFan_SpawnEndLevel; i++)
         {
             int yAxis;
-            int xAxis = Random.Range(-12, 12);
-            if (xAxis > -10 && xAxis < 10)
+            int xAxis = Random.Range(-30,25);
+            if (xAxis >= -18 && xAxis <= 18)
             {
-                yAxis = Random.Range(-6,-8);
+                yAxis = Random.Range(-15,-12);
+                yAxis *= Random.Range(0, 2) * 2 - 1;
             }
             else
             {
-                yAxis = Random.Range(-7, 7);
+                yAxis = Random.Range(5, 10);
             }
             
             var enemy = Instantiate(Enemy_Fan, new Vector2(xAxis, yAxis), Quaternion.identity);
