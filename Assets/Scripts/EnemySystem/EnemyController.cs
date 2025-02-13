@@ -58,7 +58,7 @@ public class EnemyController : MonoBehaviour
                  break;
          }
     }
-    
+    //Enemy 1 
     private void Type1()
     {
         var di = Vector3.MoveTowards(transform.position, PlayerPosition, EnemySpeed*Time.deltaTime);
@@ -69,7 +69,7 @@ public class EnemyController : MonoBehaviour
             Weapons.AutoFire(PlayerDirection, axis);
         }
     }
-
+    //Enemy_Fan
     private void Type2()
     {
         EnemiesTimeCounter += Time.deltaTime;
