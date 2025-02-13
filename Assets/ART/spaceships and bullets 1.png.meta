@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: 7d37bdf7cfb5b484bad6c4cac781ab1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5100864293011514485
+    second: spaceships and bullets_0
+  - first:
+      213: -4913980402600159903
+    second: spaceships and bullets_1
+  - first:
+      213: 5325771646500417204
+    second: spaceships and bullets_2
+  - first:
+      213: 8321515674790263459
+    second: spaceships and bullets_3
+  - first:
+      213: 9066137048488079624
+    second: spaceships and bullets_4
+  - first:
+      213: 7876355625164941378
+    second: spaceships and bullets_5
+  - first:
+      213: 1657291212211368441
+    second: spaceships and bullets_6
+  - first:
+      213: 4772505123127765067
+    second: spaceships and bullets_7
+  - first:
+      213: -4637272254934743801
+    second: spaceships and bullets_8
+  - first:
+      213: 7218093576821129074
+    second: spaceships and bullets_9
+  - first:
+      213: 1724010209690070930
+    second: spaceships and bullets_10
+  - first:
+      213: -4548668510639615814
+    second: spaceships and bullets_11
+  - first:
+      213: -6963200016355404465
+    second: spaceships and bullets_12
+  - first:
+      213: 6488939819115472792
+    second: spaceships and bullets_13
+  - first:
+      213: 8482720443733573301
+    second: spaceships and bullets_14
+  - first:
+      213: 6682270566952369398
+    second: spaceships and bullets_15
+  - first:
+      213: 360218143611590658
+    second: spaceships and bullets_16
+  - first:
+      213: 3678568357863611449
+    second: spaceships and bullets_17
+  - first:
+      213: 4651117858457127180
+    second: spaceships and bullets_18
+  - first:
+      213: 2225777546355090751
+    second: spaceships and bullets_19
+  - first:
+      213: -8438783152318378290
+    second: spaceships and bullets_20
+  - first:
+      213: 4856770166424710011
+    second: spaceships and bullets_21
+  - first:
+      213: 3164178728201881741
+    second: spaceships and bullets_22
+  - first:
+      213: -6158306824455615209
+    second: spaceships and bullets_23
+  - first:
+      213: -8652486090067357294
+    second: spaceships and bullets_24
+  - first:
+      213: 4980683189924551109
+    second: spaceships and bullets_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spaceships and bullets_25
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 25
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c95632f8f0fe1540800000000000000
+      internalID: 4980683189924551109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceships and bullets 1_0
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 12
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2d089df04372d42badee67be7b24cc
+      internalID: 817792824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceships and bullets 1_1
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 84
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e3ad4d2928c9b4aaec2cc8cacf9eb0
+      internalID: -97080596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceships and bullets 1_2
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 52
+        width: 21
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16428d26a2dd8694696734cffb7b6509
+      internalID: 783346198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceships and bullets 1_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 53
+        width: 36
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7144bd0f79e354081f0afd935cbc0a
+      internalID: -1583197742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3d9daf9bc9cea0f48b745ca8eaff0357
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spaceships and bullets 1_0: 817792824
+      spaceships and bullets 1_1: -97080596
+      spaceships and bullets 1_2: 783346198
+      spaceships and bullets 1_3: -1583197742
+      spaceships and bullets_0: -5100864293011514485
+      spaceships and bullets_1: -4913980402600159903
+      spaceships and bullets_10: 1724010209690070930
+      spaceships and bullets_11: -4548668510639615814
+      spaceships and bullets_12: -6963200016355404465
+      spaceships and bullets_13: 6488939819115472792
+      spaceships and bullets_14: 8482720443733573301
+      spaceships and bullets_15: 6682270566952369398
+      spaceships and bullets_16: 360218143611590658
+      spaceships and bullets_17: 3678568357863611449
+      spaceships and bullets_18: 4651117858457127180
+      spaceships and bullets_19: 2225777546355090751
+      spaceships and bullets_2: 5325771646500417204
+      spaceships and bullets_20: -8438783152318378290
+      spaceships and bullets_21: 4856770166424710011
+      spaceships and bullets_22: 3164178728201881741
+      spaceships and bullets_23: -6158306824455615209
+      spaceships and bullets_24: -8652486090067357294
+      spaceships and bullets_25: 4980683189924551109
+      spaceships and bullets_3: 8321515674790263459
+      spaceships and bullets_4: 9066137048488079624
+      spaceships and bullets_5: 7876355625164941378
+      spaceships and bullets_6: 1657291212211368441
+      spaceships and bullets_7: 4772505123127765067
+      spaceships and bullets_8: -4637272254934743801
+      spaceships and bullets_9: 7218093576821129074
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

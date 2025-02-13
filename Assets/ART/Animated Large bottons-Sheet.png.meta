@@ -1,0 +1,1030 @@
+fileFormatVersion: 2
+guid: bcc4877128b2ddc42bc5925b2229e8b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7930401906316273320
+    second: Animated Large bottons-Sheet_0
+  - first:
+      213: -192065390288688717
+    second: Animated Large bottons-Sheet_1
+  - first:
+      213: -5674674136532018884
+    second: Animated Large bottons-Sheet_2
+  - first:
+      213: 3552918612090172515
+    second: Animated Large bottons-Sheet_3
+  - first:
+      213: -8318797888260338227
+    second: Animated Large bottons-Sheet_4
+  - first:
+      213: 6540790857712545247
+    second: Animated Large bottons-Sheet_5
+  - first:
+      213: 7345067223354981150
+    second: Animated Large bottons-Sheet_6
+  - first:
+      213: -4379556657820304888
+    second: Animated Large bottons-Sheet_7
+  - first:
+      213: 6742768373410184869
+    second: Animated Large bottons-Sheet_8
+  - first:
+      213: -355174170245474547
+    second: Animated Large bottons-Sheet_9
+  - first:
+      213: -2136656161765871782
+    second: Animated Large bottons-Sheet_10
+  - first:
+      213: -8454139213933461131
+    second: Animated Large bottons-Sheet_11
+  - first:
+      213: 2214904407498244475
+    second: Animated Large bottons-Sheet_12
+  - first:
+      213: -8640955894764627837
+    second: Animated Large bottons-Sheet_13
+  - first:
+      213: 927390642338466591
+    second: Animated Large bottons-Sheet_14
+  - first:
+      213: 508857053981315297
+    second: Animated Large bottons-Sheet_15
+  - first:
+      213: 8244699291967402365
+    second: Animated Large bottons-Sheet_16
+  - first:
+      213: 1301301759329905830
+    second: Animated Large bottons-Sheet_17
+  - first:
+      213: 5478303439910765791
+    second: Animated Large bottons-Sheet_18
+  - first:
+      213: -7105609469636500238
+    second: Animated Large bottons-Sheet_19
+  - first:
+      213: -5616241485480073358
+    second: Animated Large bottons-Sheet_20
+  - first:
+      213: 962105192384248744
+    second: Animated Large bottons-Sheet_21
+  - first:
+      213: 7236989968392082258
+    second: Animated Large bottons-Sheet_22
+  - first:
+      213: 1466515364524042810
+    second: Animated Large bottons-Sheet_23
+  - first:
+      213: 6355117251608841965
+    second: Animated Large bottons-Sheet_24
+  - first:
+      213: 2980818210754550929
+    second: Animated Large bottons-Sheet_25
+  - first:
+      213: 6404318524038870934
+    second: Animated Large bottons-Sheet_26
+  - first:
+      213: 973763801455642287
+    second: Animated Large bottons-Sheet_27
+  - first:
+      213: -96107489267843664
+    second: Animated Large bottons-Sheet_28
+  - first:
+      213: -4042684170572153618
+    second: Animated Large bottons-Sheet_29
+  - first:
+      213: 9100443661593579715
+    second: Animated Large bottons-Sheet_30
+  - first:
+      213: 2326023934961168027
+    second: Animated Large bottons-Sheet_31
+  - first:
+      213: 7466263998907445548
+    second: Animated Large bottons-Sheet_32
+  - first:
+      213: 7264172947885388806
+    second: Animated Large bottons-Sheet_33
+  - first:
+      213: -8221981809653073094
+    second: Animated Large bottons-Sheet_34
+  - first:
+      213: -7209785986132053488
+    second: Animated Large bottons-Sheet_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 109
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6ef0844827e0e60800000000000000
+      internalID: 7930401906316273320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 109
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9223e8b85a55df0800000000000000
+      internalID: -192065390288688717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 109
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3999e340f18f31b0800000000000000
+      internalID: -5674674136532018884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 109
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364328d47a08e4130800000000000000
+      internalID: 3552918612090172515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 109
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd09ff3561bd8c80800000000000000
+      internalID: -8318797888260338227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 109
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd241861ae85ca50800000000000000
+      internalID: 6540790857712545247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 109
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b307b49bbeee560800000000000000
+      internalID: 7345067223354981150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 109
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a7ce07c60b833c0800000000000000
+      internalID: -4379556657820304888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 109
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae3ad36c10239d50800000000000000
+      internalID: 6742768373410184869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07df1559fa221bf0800000000000000
+      internalID: -355174170245474547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 73
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fabc69a821952e0800000000000000
+      internalID: -2136656161765871782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 73
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571cbc74d2ddcaa80800000000000000
+      internalID: -8454139213933461131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 73
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b714164d2dbecbe10800000000000000
+      internalID: 2214904407498244475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 73
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3889cbc3568251880800000000000000
+      internalID: -8640955894764627837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 73
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b0b9c20e0cedc00800000000000000
+      internalID: 927390642338466591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 73
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e012086bc2df0700800000000000000
+      internalID: 508857053981315297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 73
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71b1a1e25e0b6270800000000000000
+      internalID: 8244699291967402365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 73
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac23763e072f0210800000000000000
+      internalID: 1301301759329905830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd48eab04f7d60c40800000000000000
+      internalID: 5478303439910765791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 37
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f42aa1a5ddc36d90800000000000000
+      internalID: -7105609469636500238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 37
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277e525002a1f02b0800000000000000
+      internalID: -5616241485480073358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 37
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab3f9433951a5d00800000000000000
+      internalID: 962105192384248744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 37
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25353157804fe6460800000000000000
+      internalID: 7236989968392082258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 37
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3aab1044fb1a5410800000000000000
+      internalID: 1466515364524042810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 37
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee0a103879e13850800000000000000
+      internalID: 6355117251608841965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 37
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c5a00ae5efd5920800000000000000
+      internalID: 2980818210754550929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 37
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6977acd14c5b0e850800000000000000
+      internalID: 6404318524038870934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6c5e8a401838d00800000000000000
+      internalID: 973763801455642287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd7fe96fbe8aaef0800000000000000
+      internalID: -96107489267843664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecb3f97a2085e7c0800000000000000
+      internalID: -4042684170572153618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c09db34b454b4e70800000000000000
+      internalID: 9100443661593579715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9eaa6ee172b74020800000000000000
+      internalID: 2326023934961168027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c217a2e8c8f7d9760800000000000000
+      internalID: 7466263998907445548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604f5b11fc68fc460800000000000000
+      internalID: 7264172947885388806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bb7e52b17a5ed80800000000000000
+      internalID: -8221981809653073094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Large bottons-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1
+        width: 168
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012720e38d1b1fb90800000000000000
+      internalID: -7209785986132053488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

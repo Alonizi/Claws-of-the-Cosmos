@@ -1,0 +1,129 @@
+using System;
+using System.Collections;
+using UnityEngine;
+using UnityEngine.Serialization;
+using Vector3 = UnityEngine.Vector3;
+
+public class EnemyController : MonoBehaviour
+{
+    [SerializeField] private ParticleSystem DestroyVfx;
+    [SerializeField] private AudioSource DestroySfx;
+    [SerializeField] private AudioSource HitSfx;
+    [SerializeField] private ParticleSystem HitVfx; 
+    [SerializeField] private ParticleSystem FireVfx; 
+    private GameManager GameManager; 
+    public float Health = 15; 
+    public int EnemyType = 1; 
+    public float EnemySpeed = 0.00075f;
+    private PlayerMovement Player;
+    private EnemyWeaponController Weapons;
+    private Vector3 PlayerPosition;
+    private Vector3 PlayerDirection;
+    private float EnemiesTimeCounter;
+    private SpriteRenderer ShipRenderer;
+    private Vector3 InitialPlayerPosition;
+    private Vector3 InitialPlayerDirection; 
+    
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+        ShipRenderer = transform.GetChild(0).GetComponent<SpriteRenderer>();
+        //SpawnPosition = new Vector3(-11f, 6, 0f);
+        Player = FindAnyObjectByType<PlayerMovement>();
+        Weapons = GetComponent<EnemyWeaponController>();
+        EnemiesTimeCounter = 0;
+        GameManager = FindAnyObjectByType<GameManager>();
+        InitialPlayerPosition = Player.transform.position;
+        InitialPlayerDirection =  PlayerPosition - transform.position;
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+         //keep track of players positional data 
+         PlayerPosition = Player.transform.position;
+         PlayerDirection =  PlayerPosition - transform.position;
+         switch (EnemyType)
+         {
+             case 1:
+                 Type1(); 
+                 break;
+             case 2 :
+                 Type2();
+                 break;
+             case 3 :
+                 Type3();
+                 break;
+         }
+    }
+    
+    private void Type1()
+    {
+        var di = Vector3.MoveTowards(transform.position, PlayerPosition, EnemySpeed*Time.deltaTime);
+        transform.position = di;
+        var axis = Weapons.Aim(PlayerDirection);
+        if (IsWithinCameraBorders(transform.position))
+        {
+            Weapons.AutoFire(PlayerDirection, axis);
+        }
+    }
+
+    private void Type2()
+    {
+        EnemiesTimeCounter += Time.deltaTime;
+        transform.rotation = Quaternion.Euler(0,0,2*EnemiesTimeCounter*Mathf.Rad2Deg);
+        var di = Vector3.MoveTowards(transform.position, PlayerPosition, EnemySpeed*Time.deltaTime);
+        transform.position = di;
+        if (IsWithinCameraBorders(transform.position))
+        {
+            Weapons.FireDiagonally(axisDegree: 2 * EnemiesTimeCounter * Mathf.Rad2Deg);
+        }
+    }
+    //Kamikazze
+    private void Type3()
+    {
+        var di = Vector3.MoveTowards(transform.position, InitialPlayerPosition, EnemySpeed*Time.deltaTime);
+        transform.position = di;
+        var axis = Weapons.Aim(InitialPlayerDirection);
+    }
+    private void OnTriggerEnter2D(Collider2D other){
+        if (other.gameObject.tag == "Bullet")
+        {
+            
+            Destroy(other.gameObject);
+            Health--;
+            HitVfx.transform.position = other.transform.position;
+            HitVfx.Play();
+            HitSfx.Play();
+
+            if (Health <= 5 && (EnemyType==1))
+            {
+                FireVfx.Play() ;
+            }
+            if (Health == 0)
+            {
+                DestroyVfx.Play();
+                DestroySfx.Play();
+                Destroy(gameObject,1f);
+                StartCoroutine(DisappearShip());
+                FireVfx.Stop();
+                DestroyVfx.Play();
+                GameManager.IncreaseScore();
+                
+            }
+        }
+    }
+
+    private bool IsWithinCameraBorders(Vector2 position)
+    {
+        return (position.x > -9 && position.x < 9) && (position.y > -5 && position.y < 5);
+    }
+
+    private IEnumerator DisappearShip()
+    {
+        yield return new WaitForSeconds(0.1f);
+        ShipRenderer.enabled = false; 
+    }
+}
