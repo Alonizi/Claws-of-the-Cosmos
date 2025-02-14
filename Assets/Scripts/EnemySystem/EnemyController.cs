@@ -15,6 +15,7 @@ public class EnemyController : MonoBehaviour
     public float Health = 15; 
     public int EnemyType = 1; 
     public float EnemySpeed = 0.00075f;
+    public float ShootingRange = 10;
     private PlayerMovement Player;
     private EnemyWeaponController Weapons;
     private Vector3 PlayerPosition;
@@ -64,7 +65,7 @@ public class EnemyController : MonoBehaviour
         var di = Vector3.MoveTowards(transform.position, PlayerPosition, EnemySpeed*Time.deltaTime);
         transform.position = di;
         var axis = Weapons.Aim(PlayerDirection);
-        if (IsWithinCameraBorders(transform.position))
+        if (IsWithinCameraBorders(transform.position,15,10) && IsNearPlayer(ShootingRange))
         {
             Weapons.AutoFire(PlayerDirection, axis);
         }
@@ -76,7 +77,7 @@ public class EnemyController : MonoBehaviour
         transform.rotation = Quaternion.Euler(0,0,2*EnemiesTimeCounter*Mathf.Rad2Deg);
         var di = Vector3.MoveTowards(transform.position, PlayerPosition, EnemySpeed*Time.deltaTime);
         transform.position = di;
-        if (IsWithinCameraBorders(transform.position))
+        if (IsWithinCameraBorders(transform.position,15,10))
         {
             Weapons.FireDiagonally(axisDegree: 2 * EnemiesTimeCounter * Mathf.Rad2Deg);
         }
@@ -116,9 +117,14 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    private bool IsWithinCameraBorders(Vector2 position)
+    private bool IsWithinCameraBorders(Vector2 position , float cameraX , float cameraY)
     {
-        return (position.x > -9 && position.x < 9) && (position.y > -5 && position.y < 5);
+        return (position.x > -cameraX && position.x < cameraX) && (position.y > -cameraY && position.y < cameraY);
+    }
+
+    private bool IsNearPlayer(float distance)
+    {
+        return PlayerDirection.magnitude <= distance; 
     }
 
     private IEnumerator DisappearShip()
