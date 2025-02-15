@@ -318,7 +318,15 @@ MonoBehaviour:
     m_Id: f9df9b56-decf-4df1-8a7a-11c71fc9c6af
     m_Processors: 
     m_Interactions: 
-    m_SingletonActionBindings: []
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 7c8b9eff-cb64-4172-917f-2e356c369fce
+      m_Path: <XInputController>/rightStick
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Turn
+      m_Flags: 0
     m_Flags: 0
 --- !u!1 &1067405538256462403
 GameObject:

@@ -44,5 +44,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c104bd7967a49425c8103d68f2d6e9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Level: 0
   Enemy1: {fileID: 1226552201144154063, guid: 52d90d543b8d741b8903045babde1aa6, type: 3}
-  Enemy2: {fileID: 2721315373848644138, guid: 2391cc7275dd740ed94b7ee38fc669d1, type: 3}
+  Enemy_Fan: {fileID: 4651066095778079871, guid: d73d68b81b1b4437da80067723b75908, type: 3}
+  Enemy3: {fileID: 0}
+  RogueModifier_Enemy1_SpawnLevel: 1
+  RogueModifier_Enemy1_SpawnEndLevel: 5
+  RogueModifier_Enemy1_Speed: 0.35
+  RogueModifier_Enemy1_BulletRate: 3.5
+  RogueModifier_Enemy1_BulletSpeed: 0.6
+  RogueModifier_EnemyFan_SpawnLevel: 4
+  RogueModifier_EnemyFan_SpawnEndLevel: 8
+  RogueModifier_EnemyFan_Speed: 0.1
+  RogueModifier_EnemyFan_BulletRate: 5
+  RogueModifier_EnemyFan_BulletSpeed: 0.5
