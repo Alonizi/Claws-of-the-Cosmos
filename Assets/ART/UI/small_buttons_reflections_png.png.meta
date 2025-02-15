@@ -1,0 +1,2843 @@
+fileFormatVersion: 2
+guid: de68b815fee5f3941ae516dd4c84fadb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7046147214044898071
+    second: small_buttons_reflections_png_0
+  - first:
+      213: 589821639805152431
+    second: small_buttons_reflections_png_1
+  - first:
+      213: 6264991743425758473
+    second: small_buttons_reflections_png_2
+  - first:
+      213: 5654992016862185571
+    second: small_buttons_reflections_png_3
+  - first:
+      213: 5850799458534569653
+    second: small_buttons_reflections_png_4
+  - first:
+      213: 8852681690461042640
+    second: small_buttons_reflections_png_5
+  - first:
+      213: -2585459125453980564
+    second: small_buttons_reflections_png_6
+  - first:
+      213: 8429797725339390737
+    second: small_buttons_reflections_png_7
+  - first:
+      213: -691137158929916029
+    second: small_buttons_reflections_png_8
+  - first:
+      213: 2705594109379090812
+    second: small_buttons_reflections_png_9
+  - first:
+      213: -5443404679287403846
+    second: small_buttons_reflections_png_10
+  - first:
+      213: -4680286470743381414
+    second: small_buttons_reflections_png_11
+  - first:
+      213: 8138246924424516945
+    second: small_buttons_reflections_png_12
+  - first:
+      213: -6452741649918121580
+    second: small_buttons_reflections_png_13
+  - first:
+      213: 1315991038579695066
+    second: small_buttons_reflections_png_14
+  - first:
+      213: -1392300778930749435
+    second: small_buttons_reflections_png_15
+  - first:
+      213: -2995290508896115092
+    second: small_buttons_reflections_png_16
+  - first:
+      213: -1677886999866894395
+    second: small_buttons_reflections_png_17
+  - first:
+      213: -9015875706868003937
+    second: small_buttons_reflections_png_18
+  - first:
+      213: -8595701317377722196
+    second: small_buttons_reflections_png_19
+  - first:
+      213: 677973207735230438
+    second: small_buttons_reflections_png_20
+  - first:
+      213: -4564194815014497519
+    second: small_buttons_reflections_png_21
+  - first:
+      213: -4362798392849964896
+    second: small_buttons_reflections_png_22
+  - first:
+      213: -2211447626811761797
+    second: small_buttons_reflections_png_23
+  - first:
+      213: -8301205894390652435
+    second: small_buttons_reflections_png_24
+  - first:
+      213: -6083199143510655967
+    second: small_buttons_reflections_png_25
+  - first:
+      213: -4400600319419887991
+    second: small_buttons_reflections_png_26
+  - first:
+      213: -970038960062000777
+    second: small_buttons_reflections_png_27
+  - first:
+      213: 5057671369293122010
+    second: small_buttons_reflections_png_28
+  - first:
+      213: -8061533103357181332
+    second: small_buttons_reflections_png_29
+  - first:
+      213: -7131646177910155892
+    second: small_buttons_reflections_png_30
+  - first:
+      213: 3183346522470227221
+    second: small_buttons_reflections_png_31
+  - first:
+      213: 6384836970965751980
+    second: small_buttons_reflections_png_32
+  - first:
+      213: 5382925585478094219
+    second: small_buttons_reflections_png_33
+  - first:
+      213: -8854447162703152938
+    second: small_buttons_reflections_png_34
+  - first:
+      213: 7521863456633961083
+    second: small_buttons_reflections_png_35
+  - first:
+      213: -8181560171618966886
+    second: small_buttons_reflections_png_36
+  - first:
+      213: 6772744556238322108
+    second: small_buttons_reflections_png_37
+  - first:
+      213: -6168515545339701036
+    second: small_buttons_reflections_png_38
+  - first:
+      213: -8427391161740765994
+    second: small_buttons_reflections_png_39
+  - first:
+      213: -910279125220860362
+    second: small_buttons_reflections_png_40
+  - first:
+      213: 8641800675166153678
+    second: small_buttons_reflections_png_41
+  - first:
+      213: -7928663336544227610
+    second: small_buttons_reflections_png_42
+  - first:
+      213: 6332917931813337518
+    second: small_buttons_reflections_png_43
+  - first:
+      213: -8591856605675255004
+    second: small_buttons_reflections_png_44
+  - first:
+      213: -3330884708789435311
+    second: small_buttons_reflections_png_45
+  - first:
+      213: -7924859374986931922
+    second: small_buttons_reflections_png_46
+  - first:
+      213: 4422180403846191105
+    second: small_buttons_reflections_png_47
+  - first:
+      213: 938984770902882390
+    second: small_buttons_reflections_png_48
+  - first:
+      213: -8345115882702255723
+    second: small_buttons_reflections_png_49
+  - first:
+      213: -663490013561547851
+    second: small_buttons_reflections_png_50
+  - first:
+      213: -3475051496711542991
+    second: small_buttons_reflections_png_51
+  - first:
+      213: 8282123127219088931
+    second: small_buttons_reflections_png_52
+  - first:
+      213: 963789374620181232
+    second: small_buttons_reflections_png_53
+  - first:
+      213: 8398847298570668975
+    second: small_buttons_reflections_png_54
+  - first:
+      213: -6991722951654869124
+    second: small_buttons_reflections_png_55
+  - first:
+      213: 4752422936205279149
+    second: small_buttons_reflections_png_56
+  - first:
+      213: 6121917480502224552
+    second: small_buttons_reflections_png_57
+  - first:
+      213: -3414401869299938903
+    second: small_buttons_reflections_png_58
+  - first:
+      213: 1633006994406080743
+    second: small_buttons_reflections_png_59
+  - first:
+      213: 8523079098251361030
+    second: small_buttons_reflections_png_60
+  - first:
+      213: -1768430190921266268
+    second: small_buttons_reflections_png_61
+  - first:
+      213: -7471027205052436563
+    second: small_buttons_reflections_png_62
+  - first:
+      213: -5142143312943457038
+    second: small_buttons_reflections_png_63
+  - first:
+      213: -6192807756797821765
+    second: small_buttons_reflections_png_64
+  - first:
+      213: 2909707904392414961
+    second: small_buttons_reflections_png_65
+  - first:
+      213: -5479869731987508769
+    second: small_buttons_reflections_png_66
+  - first:
+      213: -3510695232309683619
+    second: small_buttons_reflections_png_67
+  - first:
+      213: -2781009878084775728
+    second: small_buttons_reflections_png_68
+  - first:
+      213: 4201509393246169022
+    second: small_buttons_reflections_png_69
+  - first:
+      213: 5494253872803098253
+    second: small_buttons_reflections_png_70
+  - first:
+      213: 8375287729785587639
+    second: small_buttons_reflections_png_71
+  - first:
+      213: -108421797944044165
+    second: small_buttons_reflections_png_72
+  - first:
+      213: -6683700748074419302
+    second: small_buttons_reflections_png_73
+  - first:
+      213: 4413047716349669449
+    second: small_buttons_reflections_png_74
+  - first:
+      213: 8913752109913544605
+    second: small_buttons_reflections_png_75
+  - first:
+      213: -611427679407066254
+    second: small_buttons_reflections_png_76
+  - first:
+      213: -5887236893805158249
+    second: small_buttons_reflections_png_77
+  - first:
+      213: -2118658243778285884
+    second: small_buttons_reflections_png_78
+  - first:
+      213: -7674185089237320284
+    second: small_buttons_reflections_png_79
+  - first:
+      213: -880883352783395919
+    second: small_buttons_reflections_png_80
+  - first:
+      213: -7516834805556294099
+    second: small_buttons_reflections_png_81
+  - first:
+      213: 180169958798907701
+    second: small_buttons_reflections_png_82
+  - first:
+      213: 1355616444793115409
+    second: small_buttons_reflections_png_83
+  - first:
+      213: -421003879152927713
+    second: small_buttons_reflections_png_84
+  - first:
+      213: -3179138155918478072
+    second: small_buttons_reflections_png_85
+  - first:
+      213: 8271104091623435311
+    second: small_buttons_reflections_png_86
+  - first:
+      213: -3649109790514520489
+    second: small_buttons_reflections_png_87
+  - first:
+      213: 6632211491537958707
+    second: small_buttons_reflections_png_88
+  - first:
+      213: -6214626342750295179
+    second: small_buttons_reflections_png_89
+  - first:
+      213: -7901465994124841250
+    second: small_buttons_reflections_png_90
+  - first:
+      213: -841333443751681816
+    second: small_buttons_reflections_png_91
+  - first:
+      213: 712060168438802488
+    second: small_buttons_reflections_png_92
+  - first:
+      213: 4904887169870253037
+    second: small_buttons_reflections_png_93
+  - first:
+      213: 5478507962316260348
+    second: small_buttons_reflections_png_94
+  - first:
+      213: 5473135241759980733
+    second: small_buttons_reflections_png_95
+  - first:
+      213: -7431026877173006881
+    second: small_buttons_reflections_png_96
+  - first:
+      213: 3207079411112340642
+    second: small_buttons_reflections_png_97
+  - first:
+      213: 6270387751187349258
+    second: small_buttons_reflections_png_98
+  - first:
+      213: 2950532094898512051
+    second: small_buttons_reflections_png_99
+  - first:
+      213: -4646908673087960173
+    second: small_buttons_reflections_png_100
+  - first:
+      213: -202607749192556013
+    second: small_buttons_reflections_png_101
+  - first:
+      213: 531225535518027287
+    second: small_buttons_reflections_png_102
+  - first:
+      213: 5431729708483060251
+    second: small_buttons_reflections_png_103
+  - first:
+      213: -3901589448337136565
+    second: small_buttons_reflections_png_104
+  - first:
+      213: 8792290590569273662
+    second: small_buttons_reflections_png_105
+  - first:
+      213: 987526170760318682
+    second: small_buttons_reflections_png_106
+  - first:
+      213: -6602024757050084405
+    second: small_buttons_reflections_png_107
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 256
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71321402f81f8c160800000000000000
+      internalID: 7046147214044898071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 256
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: facac6908a77f2800800000000000000
+      internalID: 589821639805152431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 256
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905c5ab1cc8b1f650800000000000000
+      internalID: 6264991743425758473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 256
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3688db427419a7e40800000000000000
+      internalID: 5654992016862185571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 256
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b63002db17323150800000000000000
+      internalID: 5850799458534569653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 256
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7f88d081b0bda70800000000000000
+      internalID: 8852681690461042640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 256
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6cf50eaf9a9e1cd0800000000000000
+      internalID: -2585459125453980564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_7
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 256
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11310434e58acf470800000000000000
+      internalID: 8429797725339390737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 256
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fd8ee6a669866f0800000000000000
+      internalID: -691137158929916029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_9
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 256
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c791ee3f1833c8520800000000000000
+      internalID: 2705594109379090812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_10
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 256
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba006ad8442574b0800000000000000
+      internalID: -5443404679287403846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_11
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 256
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a264880484c0fb0800000000000000
+      internalID: -4680286470743381414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 224
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1551db0a57cd0f070800000000000000
+      internalID: 8138246924424516945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 224
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499234158a14376a0800000000000000
+      internalID: -6452741649918121580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 224
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: addd32e80e6534210800000000000000
+      internalID: 1315991038579695066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 224
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500455b71dd8dace0800000000000000
+      internalID: -1392300778930749435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_16
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 224
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66e522e6279e66d0800000000000000
+      internalID: -2995290508896115092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_17
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 224
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c710b7d9a2f6b8e0800000000000000
+      internalID: -1677886999866894395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_18
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 224
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b0f0110dc21e280800000000000000
+      internalID: -9015875706868003937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_19
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 224
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8f75e913fe5b880800000000000000
+      internalID: -8595701317377722196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_20
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 224
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef5a465a05a86900800000000000000
+      internalID: 677973207735230438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_21
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 224
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11391657ff8b8a0c0800000000000000
+      internalID: -4564194815014497519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_22
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 224
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0688f0af93473c0800000000000000
+      internalID: -4362798392849964896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_23
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 224
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b1184a91c5f41e0800000000000000
+      internalID: -2211447626811761797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1677188313ccc80800000000000000
+      internalID: -8301205894390652435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_25
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 192
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c3611fb92249ba0800000000000000
+      internalID: -6083199143510655967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 192
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ec18a235dede2c0800000000000000
+      internalID: -4400600319419887991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_27
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 192
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771173f84bab982f0800000000000000
+      internalID: -970038960062000777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_28
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 192
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9416d4055703640800000000000000
+      internalID: 5057671369293122010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_29
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 192
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62c755ba5eaf1090800000000000000
+      internalID: -8061533103357181332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_30
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 192
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8594e5169d470d90800000000000000
+      internalID: -7131646177910155892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_31
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 192
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d10dccbc48d2c20800000000000000
+      internalID: 3183346522470227221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_32
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 192
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8d133956f7b9850800000000000000
+      internalID: 6384836970965751980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_33
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 192
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d88cecc4ef3ba40800000000000000
+      internalID: 5382925585478094219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 192
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8fc98e73fae1580800000000000000
+      internalID: -8854447162703152938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_35
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 192
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ab8a516f6036860800000000000000
+      internalID: 7521863456633961083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 160
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92ea262f52457e80800000000000000
+      internalID: -8181560171618966886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_37
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 160
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9bb055a4f9dfd50800000000000000
+      internalID: 6772744556238322108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_38
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 160
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d85d803bc7056aa0800000000000000
+      internalID: -6168515545339701036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_39
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 160
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4dc2d7364eb0b80800000000000000
+      internalID: -8427391161740765994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_40
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 160
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ed1ce55f90e53f0800000000000000
+      internalID: -910279125220860362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_41
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 160
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb62078de7dde770800000000000000
+      internalID: 8641800675166153678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_42
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 160
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee2e9904bab7f190800000000000000
+      internalID: -7928663336544227610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_43
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 160
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea97f654e4b03e750800000000000000
+      internalID: 6332917931813337518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_44
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 160
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b02a150f793c880800000000000000
+      internalID: -8591856605675255004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_45
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 160
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15443d0510256c1d0800000000000000
+      internalID: -3330884708789435311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_46
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 160
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21dafad26e350290800000000000000
+      internalID: -7924859374986931922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_47
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 160
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10812f7c5adbe5d30800000000000000
+      internalID: 4422180403846191105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 128
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658fa279ca1f70d00800000000000000
+      internalID: 938984770902882390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_49
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 128
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599cf0aa151303c80800000000000000
+      internalID: -8345115882702255723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_50
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 128
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b315a5195fcac6f0800000000000000
+      internalID: -663490013561547851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_51
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 128
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137a15a431326cfc0800000000000000
+      internalID: -3475051496711542991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_52
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 128
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ee0f78a1300f270800000000000000
+      internalID: 8282123127219088931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_53
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 128
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f228807451106d00800000000000000
+      internalID: 963789374620181232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_54
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 128
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabcd0a7e13be8470800000000000000
+      internalID: 8398847298570668975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_55
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 128
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c777aaae40968fe90800000000000000
+      internalID: -6991722951654869124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_56
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 128
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf3fe62b7ff3f140800000000000000
+      internalID: 4752422936205279149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_57
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 128
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6e691638b65f450800000000000000
+      internalID: 6121917480502224552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_58
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 128
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a982f3179b9d90d0800000000000000
+      internalID: -3414401869299938903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_59
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 128
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e08d49953b99a610800000000000000
+      internalID: 1633006994406080743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 96
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b34db584f084670800000000000000
+      internalID: 8523079098251361030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_61
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 96
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abcf046c164577e0800000000000000
+      internalID: -1768430190921266268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_62
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 96
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafe1971754915890800000000000000
+      internalID: -7471027205052436563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_63
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 96
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fcdadfa6ef63a8b0800000000000000
+      internalID: -5142143312943457038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_64
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 96
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc38c5f72abe0aa0800000000000000
+      internalID: -6192807756797821765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_65
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 96
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6c4793ceb516820800000000000000
+      internalID: 2909707904392414961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_66
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 96
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd13879238793f3b0800000000000000
+      internalID: -5479869731987508769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_67
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 96
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a16836941874fc0800000000000000
+      internalID: -3510695232309683619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_68
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 96
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d097e3104ed769d0800000000000000
+      internalID: -2781009878084775728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_69
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 96
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7a7e85882ce4a30800000000000000
+      internalID: 4201509393246169022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_70
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 96
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e2e3a99c28f3c40800000000000000
+      internalID: 5494253872803098253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_71
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 96
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7ce89e0dffa3470800000000000000
+      internalID: 8375287729785587639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75d2aff2fece7ef0800000000000000
+      internalID: -108421797944044165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_73
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 64
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9bf206d499be33a0800000000000000
+      internalID: -6683700748074419302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_74
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 64
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940fed5448b4e3d30800000000000000
+      internalID: 4413047716349669449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_75
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 64
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97194f115204bb70800000000000000
+      internalID: 8913752109913544605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_76
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 64
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273b91bd3c5c387f0800000000000000
+      internalID: -611427679407066254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_77
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 64
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7906b2cac355c4ea0800000000000000
+      internalID: -5887236893805158249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_78
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 64
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce642b6d830992e0800000000000000
+      internalID: -2118658243778285884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_79
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 64
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adf8672251df7590800000000000000
+      internalID: -7674185089237320284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_80
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 64
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b36accf14976c3f0800000000000000
+      internalID: -880883352783395919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_81
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 64
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e468bf196dea790800000000000000
+      internalID: -7516834805556294099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_82
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 64
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539d7697f97108200800000000000000
+      internalID: 180169958798907701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_83
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 64
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113529369fd10d210800000000000000
+      internalID: 1355616444793115409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_84
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 32
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c3706d33b482af0800000000000000
+      internalID: -421003879152927713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_85
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 32
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805b694e0be61e3d0800000000000000
+      internalID: -3179138155918478072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_86
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 32
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cae71695dd8c270800000000000000
+      internalID: 8271104091623435311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_87
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 32
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e5bf5baf1cb5dc0800000000000000
+      internalID: -3649109790514520489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_88
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 32
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337326c66395a0c50800000000000000
+      internalID: 6632211491537958707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_89
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 32
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b659c844631c9a0800000000000000
+      internalID: -6214626342750295179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_90
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 32
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede2c57ca8a585290800000000000000
+      internalID: -7901465994124841250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_91
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 32
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e06683c0bbf254f0800000000000000
+      internalID: -841333443751681816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_92
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 32
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838ef7653feb1e900800000000000000
+      internalID: 712060168438802488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_93
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 32
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debcc7fc4e8a11440800000000000000
+      internalID: 4904887169870253037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_94
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 32
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3820127f1970c40800000000000000
+      internalID: 5478507962316260348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_95
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 32
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc76c4218b74fb40800000000000000
+      internalID: 5473135241759980733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fddf8bd2d60bfd890800000000000000
+      internalID: -7431026877173006881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_97
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ace1d98bb5d18c20800000000000000
+      internalID: 3207079411112340642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_98
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f7b711074e40750800000000000000
+      internalID: 6270387751187349258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_99
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0a0d6ce4562f820800000000000000
+      internalID: 2950532094898512051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_100
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b09e4ae2dd28fb0800000000000000
+      internalID: -4646908673087960173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_101
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312e2a85351303df0800000000000000
+      internalID: -202607749192556013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_102
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e2b2c5fca4f5700800000000000000
+      internalID: 531225535518027287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_103
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12a11e2461616b40800000000000000
+      internalID: 5431729708483060251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_104
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44e3787115cad9c0800000000000000
+      internalID: -3901589448337136565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_105
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3914e465bd740a70800000000000000
+      internalID: 8792290590569273662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_106
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade0296f1d564bd00800000000000000
+      internalID: 987526170760318682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_buttons_reflections_png_107
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3f1b56675e064a0800000000000000
+      internalID: -6602024757050084405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

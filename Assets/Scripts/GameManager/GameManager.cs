@@ -91,7 +91,7 @@ public class GameManager : MonoBehaviour
     // --------------------Player Health System -----------------------
     public void PlayerTakeDamage(float damage)
     {
-        //currentHealth -= damage;
+        currentHealth -= damage;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
         UpdateHealthUI();
