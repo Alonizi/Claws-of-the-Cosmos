@@ -1,12 +1,14 @@
 using System;
 using System.Collections;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Serialization;
 using Vector3 = UnityEngine.Vector3;
 
 public class EnemyController : MonoBehaviour
 {
-    [SerializeField] private ParticleSystem DestroyVfx;
+    
+    [SerializeField] private GameObject DestroyVfx;
     [SerializeField] private AudioSource DestroySfx;
     [SerializeField] private AudioSource HitSfx;
     [SerializeField] private ParticleSystem HitVfx; 
@@ -23,12 +25,13 @@ public class EnemyController : MonoBehaviour
     private float EnemiesTimeCounter;
     private SpriteRenderer ShipRenderer;
     private Vector3 InitialPlayerPosition;
-    private Vector3 InitialPlayerDirection; 
+    private Vector3 InitialPlayerDirection;
+    private AudioManager Audio; 
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        Audio = FindAnyObjectByType<AudioManager>();
         ShipRenderer = transform.GetChild(0).GetComponent<SpriteRenderer>();
         //SpawnPosition = new Vector3(-11f, 6, 0f);
         Player = FindAnyObjectByType<PlayerMovement>();
@@ -105,14 +108,16 @@ public class EnemyController : MonoBehaviour
             }
             if (Health == 0)
             {
-                DestroyVfx.Play();
+                Instantiate(DestroyVfx, transform.position, quaternion.identity).GetComponent<ParticleSystem>().Play();
+                //DestroyVfx.transform.parent = 
+                //DestroyVfx.Play();
                 DestroySfx.Play();
-                Destroy(gameObject,1f);
-                StartCoroutine(DisappearShip());
+                Audio.PlayeSFX(Audio.DestroySFX);
+                Destroy(gameObject,.2f);
+                //StartCoroutine(DisappearShip());
                 FireVfx.Stop();
-                DestroyVfx.Play();
+                //DestroyVfx.Play();
                 GameManager.IncreaseScore();
-                
             }
         }
     }

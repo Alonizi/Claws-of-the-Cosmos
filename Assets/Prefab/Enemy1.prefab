@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae28dbf0c86e47648103703da23b1fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyVfx: {fileID: 2647658820143814338}
+  DestroyVfx: {fileID: 8034338699585990179, guid: ddafb3f299a6c43be8a40ac29904af23, type: 3}
   DestroySfx: {fileID: 7743145809524474556}
   HitSfx: {fileID: 5590391620868217376}
   HitVfx: {fileID: 7918686802992597798}

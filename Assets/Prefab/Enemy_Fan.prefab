@@ -398,7 +398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae28dbf0c86e47648103703da23b1fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyVfx: {fileID: 8865500037776422664}
+  DestroyVfx: {fileID: 8034338699585990179, guid: ddafb3f299a6c43be8a40ac29904af23, type: 3}
   DestroySfx: {fileID: 8723112753642370657}
   HitSfx: {fileID: 7880396677854461480}
   HitVfx: {fileID: 4739632240852753227}
@@ -406,6 +406,7 @@ MonoBehaviour:
   Health: 1
   EnemyType: 2
   EnemySpeed: 0.34
+  ShootingRange: 10
 --- !u!114 &3716796875131196062
 MonoBehaviour:
   m_ObjectHideFlags: 0
