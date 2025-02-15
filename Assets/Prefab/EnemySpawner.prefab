@@ -52,7 +52,7 @@ MonoBehaviour:
   RogueModifier_Enemy1_SpawnEndLevel: 5
   RogueModifier_Enemy1_Speed: 0.35
   RogueModifier_Enemy1_BulletRate: 3.5
-  RogueModifier_Enemy1_BulletSpeed: 0.6
+  RogueModifier_Enemy1_BulletSpeed: 0.9
   RogueModifier_EnemyFan_SpawnLevel: 4
   RogueModifier_EnemyFan_SpawnEndLevel: 8
   RogueModifier_EnemyFan_Speed: 0.1

@@ -16,7 +16,7 @@ public class EnemyWeaponController : MonoBehaviour
         if (TimeCounter > FireRate)
         {
             var bullet = Instantiate(BulletPrefab, transform.GetChild(0).position, Quaternion.Euler(0, 0, angle));
-            bullet.GetComponent<Rigidbody2D>().linearVelocity = BulletSpeed * direction;
+            bullet.GetComponent<Rigidbody2D>().linearVelocity = BulletSpeed * direction.normalized;
             TimeCounter = 0; 
         }
     }
@@ -41,7 +41,7 @@ public class EnemyWeaponController : MonoBehaviour
                 var angle = ((i * 90)+axisDegree)*Mathf.Deg2Rad;
                 var direction = new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0);
                 var bullet = Instantiate(BulletPrefab, transform.position, Quaternion.Euler(0, 0, angle));
-                    //bullet.transform.localPosition = barrelPosition;
+                //bullet.transform.localPosition = barrelPosition;
                 bullet.GetComponent<Rigidbody2D>().linearVelocity = BulletSpeed * direction;
                 //Debug.Log(angle);
             }

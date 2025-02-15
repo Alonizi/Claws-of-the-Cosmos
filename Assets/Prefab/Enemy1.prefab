@@ -249,7 +249,7 @@ MonoBehaviour:
   Health: 1
   EnemyType: 1
   EnemySpeed: 0.35
-  ShootingRange: 10
+  ShootingRange: 15
 --- !u!114 &5652329221833251094
 MonoBehaviour:
   m_ObjectHideFlags: 0
