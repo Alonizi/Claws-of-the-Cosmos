@@ -24,8 +24,12 @@ public class EvelBullet : MonoBehaviour
 
 
     private void OnTriggerEnter2D(Collider2D other) {
-       
 
+        if (other.gameObject.tag=="Astroids")
+        {
+            Destroy(gameObject);
+        }
+        
         if (other.gameObject.tag == "Player")
         {
             audioManager.PlayeSFX(audioManager.ShipHit);

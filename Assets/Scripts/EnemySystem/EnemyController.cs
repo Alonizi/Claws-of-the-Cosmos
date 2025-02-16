@@ -3,6 +3,7 @@ using System.Collections;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Serialization;
+using Random = UnityEngine.Random;
 using Vector3 = UnityEngine.Vector3;
 
 public class EnemyController : MonoBehaviour
@@ -26,7 +27,8 @@ public class EnemyController : MonoBehaviour
     private SpriteRenderer ShipRenderer;
     private Vector3 InitialPlayerPosition;
     private Vector3 InitialPlayerDirection;
-    private AudioManager Audio; 
+    private AudioManager Audio;
+    private Rigidbody2D RigidComponent;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -40,8 +42,8 @@ public class EnemyController : MonoBehaviour
         GameManager = FindAnyObjectByType<GameManager>();
         InitialPlayerPosition = Player.transform.position;
         InitialPlayerDirection =  PlayerPosition - transform.position;
-
-    }
+        RigidComponent = GetComponent<Rigidbody2D>();
+    }   
 
     // Update is called once per frame
     void Update()
@@ -120,6 +122,12 @@ public class EnemyController : MonoBehaviour
                 GameManager.IncreaseScore();
             }
         }
+        
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        StartCoroutine(ZeroForce());
     }
 
     private bool IsWithinCameraBorders(Vector2 position , float cameraX , float cameraY)
@@ -132,9 +140,16 @@ public class EnemyController : MonoBehaviour
         return PlayerDirection.magnitude <= distance; 
     }
 
-    private IEnumerator DisappearShip()
+    /// <summary>
+    /// Reset Force and Velocity
+    /// </summary>
+    /// <returns></returns>
+    private IEnumerator ZeroForce()
     {
-        yield return new WaitForSeconds(0.1f);
-        ShipRenderer.enabled = false; 
+        yield return new WaitForSeconds(Random.Range(2, 6));
+        RigidComponent.totalForce = Vector2.zero;
+        RigidComponent.linearVelocity = Vector2.zero;
     }
+    
+    
 }

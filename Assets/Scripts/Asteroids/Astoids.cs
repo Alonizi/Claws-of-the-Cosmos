@@ -5,7 +5,9 @@ using UnityEngine.UIElements;
 public class Astoids : MonoBehaviour
 {
     [Header("Sprite Mix")]
+    private int SpriteIndex; 
     public Sprite[] sprites;
+    public Sprite[] CrackedSprites; 
     public float size = 1f ; 
     public float minSize = 0.5f;
     public float maxSize = 1.5f;
@@ -16,11 +18,8 @@ public class Astoids : MonoBehaviour
     public float maxLifeTime = 30f;
     [SerializeField] ParticleSystem hitEffect;
     AudioManager audioManager;
-
     GameManager gameManager;
 
-
-    
     private void Awake() {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         gameManager = FindObjectOfType<GameManager>();
@@ -29,14 +28,16 @@ public class Astoids : MonoBehaviour
     }
     void Start()
     {
-            if (!GetComponent<PolygonCollider2D>())
-        {
-            gameObject.AddComponent<PolygonCollider2D>();
-        }
+        if (!GetComponent<PolygonCollider2D>())
+        { 
+            var colliderComp = gameObject.AddComponent<PolygonCollider2D>();
+            colliderComp.includeLayers = 7;
+            // asteroids layer;
+         }
         //to pick random sprite
-        _spriteRenderer.sprite = sprites[Random.Range(0,sprites.Length)];
+        SpriteIndex = Random.Range(0, sprites.Length);
+        _spriteRenderer.sprite = sprites[SpriteIndex];
         this.transform.eulerAngles = new Vector3(0,0,Random.value * 360);
-
         transform.localScale =  size * Vector3.one;
         _rigidbody2D.mass = size ;
 /*
@@ -54,25 +55,28 @@ public class Astoids : MonoBehaviour
     public void SetTrajectory(Vector2 direction){
        
         _rigidbody2D.AddForce(direction * astroidsSpeed);
-    Destroy(gameObject , maxLifeTime);
+        Destroy(gameObject , maxLifeTime);
     }
 
     private void OnCollisionEnter2D(Collision2D other) {
-        if(other.gameObject.tag == "Bullet" || other.gameObject.tag == "Player" || other.gameObject.tag =="Enemy"){
-            
+        if(other.gameObject.tag == "Bullet" )
+        {
+            Destroy(other.gameObject);
             audioManager.PlayeSFX(audioManager.colide);
             PlayParticleEffect();
-
-            if(size  > minSize) {
-                Split();
-                Split();
-            }
-            Destroy(gameObject);
-            gameManager.IncreaseScore();
+            
+             if(size  > minSize ) {
+                 Split();
+                 Split(); 
+             }
+             Destroy(gameObject);
+             gameManager.IncreaseScore();
         }
-          if(other.gameObject.tag == "Bullet" ){
+
+        if (other.gameObject.tag == "Enemy_Bullet")
+        {
             Destroy(other.gameObject);
-          }
+        }
     }
 
     private void Split(){
@@ -106,4 +110,5 @@ public class Astoids : MonoBehaviour
             Destroy(effect.gameObject, effect.main.duration + effect.main.startLifetime.constantMax);
         }
     }
+
 }

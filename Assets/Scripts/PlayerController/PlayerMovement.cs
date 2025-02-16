@@ -133,12 +133,12 @@ public class PlayerMovement : MonoBehaviour
     }
       private void OnCollisionEnter2D(Collision2D other)
       {
-          if (other.gameObject.tag == "Astroids" || other.gameObject.tag == "Enemy")
-          {
-              gameManager.PlayerTakeDamage(10);
-     
-     
-          }
+          // if (other.gameObject.tag == "Astroids" || other.gameObject.tag == "Enemy")
+          // {
+          //     gameManager.PlayerTakeDamage(10);
+          //
+          //
+          // }
           if(other.gameObject.tag == "Enemy_Bullet"){
             
             audioManager.PlayeSFX(audioManager.ShipHit);
