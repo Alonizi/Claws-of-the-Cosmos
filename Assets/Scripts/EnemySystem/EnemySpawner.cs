@@ -7,9 +7,11 @@ using Random = UnityEngine.Random;
 
 public class EnemySpawner : MonoBehaviour
 {
+    private GameManager Manager; 
     private List<EnemyController> EnemiesAlive; 
     private float GameTime;
-    public int Level; 
+    public int Level;
+    public int LastLevel = 10;
     [SerializeField] private GameObject Enemy1;
     [SerializeField] private GameObject Enemy_Fan;
     [SerializeField] private GameObject Enemy3;
@@ -31,7 +33,8 @@ public class EnemySpawner : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        GameTime = 0; 
+        GameTime = 0;
+        Manager = FindAnyObjectByType<GameManager>();
     }
 
     private void Update()
@@ -40,9 +43,16 @@ public class EnemySpawner : MonoBehaviour
         EnemiesAlive = FindObjectsByType<EnemyController>(0).ToList();
         if (EnemiesAlive.Count <= 0)
         {
-            Level++;
-            RogueLike();
-            
+            if (Level < LastLevel+1)
+            {
+                Level++;
+                Manager.UpdateWave(Level);
+                RogueLike();
+            }
+            else if (Level == LastLevel + 1)
+            {
+                Manager.Win();
+            }
         }
         Debug.Log($"Enemies Alive {EnemiesAlive.Count}");
         Debug.Log($"Level{Level}");
@@ -102,7 +112,7 @@ public class EnemySpawner : MonoBehaviour
     {
         foreach (var enemy in EnemiesAlive)
         {
-                Destroy(enemy.gameObject);
+            Destroy(enemy.gameObject);
         }
     }
     

@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
         currentHealth = maxHealth;
 
         UpdateHealthUI();
-        UpdateTimerUI();
+        //UpdateTimerUI();
 
         player = FindObjectOfType<PlayerMovement>();
         enemyController = FindObjectOfType<EnemyController>();
@@ -67,26 +67,26 @@ public class GameManager : MonoBehaviour
         {
             if (timeRemaining > 0)
             {
-                timeRemaining -= Time.deltaTime;
-                UpdateTimerUI();
+                //timeRemaining -= Time.deltaTime;
+                //UpdateTimerUI();
             }
             else if (timeRemaining <= 0 && !isGameOver)
             {
-                UpdateTimerUI();
-                timerText.text = ("00:00");
-                isGameOver = true;
-                player.Die();
-                Win();
+                //UpdateTimerUI();
+                //timerText.text = ("00:00");
+                //isGameOver = true;
+                //player.Die();
+                //Win();
             }
         }
     }
 
-    void UpdateTimerUI()
-    {
-        int minutes = Mathf.FloorToInt(timeRemaining / 60);
-        int seconds = Mathf.FloorToInt(timeRemaining % 60);
-        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
-    }
+    // void UpdateTimerUI()
+    // {
+    //     int minutes = Mathf.FloorToInt(timeRemaining / 60);
+    //     int seconds = Mathf.FloorToInt(timeRemaining % 60);
+    //     //timerText.text = "Time: "+string.Format("{0:00}:{1:00}", minutes, seconds);
+    // }
 
     // --------------------Player Health System -----------------------
     public void PlayerTakeDamage(float damage)
@@ -125,7 +125,7 @@ public class GameManager : MonoBehaviour
     public void IncreaseScore()
     {
         score++;
-        scoreText.text = score.ToString();
+        scoreText.text = "SCORE: "+score.ToString();
         scoreText.color = Color.green;
         EndScoor.text = "Final Score: " + score.ToString();
         ShakeAndFlashScore();
@@ -146,7 +146,7 @@ public class GameManager : MonoBehaviour
         Invoke("LoadEndScene", 10);
     }
 
-    private void Win()
+    public void Win()
     {
         Debug.Log("Win triggered!");
         panelEnd.SetActive(true);
@@ -203,6 +203,11 @@ public class GameManager : MonoBehaviour
             yield return null;
         }
         scoreText.transform.localPosition = orgPosition;
+    }
+
+    public void UpdateWave(int wave)
+    {
+        timerText.text = $"WAVE: {wave}";
     }
 
     // CircleHealth to increase player health
