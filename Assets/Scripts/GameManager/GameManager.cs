@@ -41,6 +41,7 @@ public class GameManager : MonoBehaviour
     private Vector3 orgPosition;
     private Color originalScoreColor;
     private Color originalLifeColor;
+    private int LastSuccessfulWave = 0 ; 
 
     AudioManager audioManager;
 
@@ -163,7 +164,7 @@ public class GameManager : MonoBehaviour
         EndScoor.text = "Final Score: " + score.ToString();
         EndScoor.gameObject.SetActive(true);
         //gameWinUI.SetActive(true);
-
+        
         winPanel.SetActive(true);
         //Invoke("LoadEndScene", 10);
     }
@@ -218,6 +219,7 @@ public class GameManager : MonoBehaviour
 
     public void UpdateWave(int wave)
     {
+        LastSuccessfulWave = wave - 1;
         timerText.text = $"WAVE: {wave}";
     }
 

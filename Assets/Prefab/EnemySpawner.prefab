@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Level: 0
+  LastLevel: 10
   Enemy1: {fileID: 1226552201144154063, guid: 52d90d543b8d741b8903045babde1aa6, type: 3}
   Enemy_Fan: {fileID: 4651066095778079871, guid: d73d68b81b1b4437da80067723b75908, type: 3}
   Enemy3: {fileID: 0}
@@ -54,7 +55,7 @@ MonoBehaviour:
   RogueModifier_Enemy1_BulletRate: 3.5
   RogueModifier_Enemy1_BulletSpeed: 0.9
   RogueModifier_EnemyFan_SpawnLevel: 4
-  RogueModifier_EnemyFan_SpawnEndLevel: 8
+  RogueModifier_EnemyFan_SpawnEndLevel: 10
   RogueModifier_EnemyFan_Speed: 0.1
   RogueModifier_EnemyFan_BulletRate: 5
   RogueModifier_EnemyFan_BulletSpeed: 0.5
