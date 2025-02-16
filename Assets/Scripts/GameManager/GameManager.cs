@@ -3,9 +3,14 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using UnityEngine.UIElements;
 
 public class GameManager : MonoBehaviour
 {
+
+    [SerializeField] GameObject losePanel;
+    [SerializeField] GameObject winPanel;
+
     [Header("Referance Player")]
     [SerializeField] GameObject playerPrefab;
     PlayerMovement player;
@@ -16,7 +21,7 @@ public class GameManager : MonoBehaviour
     private float currentHealth;
 
     [Header("UI Elements")]
-    public Slider healthBar;
+    public UnityEngine.UI.Slider healthBar;
 
     [Header("Timer Settings")]
     [SerializeField] private float timeLimit = 120f; // 2 minutes
@@ -59,6 +64,9 @@ public class GameManager : MonoBehaviour
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         orgPosition = scoreText.transform.localPosition;
         timeRemaining = timeLimit;
+
+        losePanel.SetActive(false);
+        winPanel.SetActive(false);
     }
 
     private void Update() 
@@ -135,26 +143,29 @@ public class GameManager : MonoBehaviour
     private void GameOver()
     {
         Debug.Log("Game Over triggered!");
-        panelEnd.SetActive(true);
+        //panelEnd.SetActive(true);
         EndScoor.text = "Final Score: " + score.ToString();
         EndScoor.gameObject.SetActive(true);
-        gameOverUI.SetActive(true);
+        //gameOverUI.SetActive(true);
 
         audioManager.StopBk();
         audioManager.PlayOnce2(audioManager.DieClip);
-        
-        Invoke("LoadEndScene", 10);
+
+        losePanel.SetActive(true);
+
+        //Invoke("LoadEndScene", 10);
     }
 
     public void Win()
     {
         Debug.Log("Win triggered!");
-        panelEnd.SetActive(true);
+        //panelEnd.SetActive(true);
         EndScoor.text = "Final Score: " + score.ToString();
         EndScoor.gameObject.SetActive(true);
-        gameWinUI.SetActive(true);
+        //gameWinUI.SetActive(true);
 
-        Invoke("LoadEndScene", 10);
+        winPanel.SetActive(true);
+        //Invoke("LoadEndScene", 10);
     }
 
     private void LoadEndScene()
