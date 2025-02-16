@@ -11,17 +11,27 @@ public class EnemySpawner : MonoBehaviour
     private float GameTime;
     public int Level; 
     [SerializeField] private GameObject Enemy1;
-    [SerializeField] private GameObject Enemy2;
+    [SerializeField] private GameObject Enemy_Fan;
     [SerializeField] private GameObject Enemy3;
     
+    [Header("Rogue Modifiers for Enemy_1 ")]
+    [SerializeField] private int RogueModifier_Enemy1_SpawnLevel = 1;
+    [SerializeField] private int RogueModifier_Enemy1_SpawnEndLevel = 6;
+    [SerializeField] private float RogueModifier_Enemy1_Speed = 1;
+    [SerializeField] private float RogueModifier_Enemy1_BulletRate =1;
+    [SerializeField] private float RogueModifier_Enemy1_BulletSpeed = 1;
     
+    [Header("Rogue Modifiers for Enemy_Fan ")]
+    [SerializeField] private int RogueModifier_EnemyFan_SpawnLevel = 3;
+    [SerializeField] private int RogueModifier_EnemyFan_SpawnEndLevel = 8;
+    [SerializeField] private float RogueModifier_EnemyFan_Speed = 1;
+    [SerializeField] private float RogueModifier_EnemyFan_BulletRate = 1;
+    [SerializeField] private float RogueModifier_EnemyFan_BulletSpeed = 1;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //Level = 1; 
         GameTime = 0; 
-        //Level1();
     }
 
     private void Update()
@@ -36,68 +46,63 @@ public class EnemySpawner : MonoBehaviour
         }
         Debug.Log($"Enemies Alive {EnemiesAlive.Count}");
         Debug.Log($"Level{Level}");
-
-    }
-    /// <summary>
-    /// Instantiate two enemies of different types
-    /// </summary>
-    public void Level1()
-    {
-        Instantiate(Enemy1, new Vector2(15, 0), Quaternion.identity);
-        //Instantiate(Enemy2, new Vector2(-15, 0), Quaternion.identity);
-
-    }
-    /// <summary>
-    /// Instantiate
-    /// </summary>
-    public void Level2()
-    {
-        var enemy1 =Instantiate(Enemy1, new Vector2(15, 0), Quaternion.identity);
-        var enemy2 = Instantiate(Enemy2, new Vector2(-15, 0), Quaternion.identity);
-        enemy1.GetComponent<EnemyWeaponController>().BulletSpeed = 1;
-        enemy2.GetComponent<EnemyWeaponController>().FireRate = 0.1f;
     }
 
     private void RogueLike()
     {
-        for (int i = 0; i < Level && Level <= 7; i++)
+        // start spawning Enemy-1 
+        for (int i = RogueModifier_Enemy1_SpawnLevel; i <= Level && Level <= RogueModifier_Enemy1_SpawnEndLevel; i++)
         {
+            
             int yAxis;
-            int xAxis = Random.Range(-12, 12);
-            if (xAxis > -10 && xAxis < 10)
+            int xAxis = Random.Range(-30,25);
+            if (xAxis > -18 && xAxis < 18)
             {
-                yAxis = Random.Range(-6,-8);
+                yAxis = Random.Range(-12,-10);
+                yAxis *= Random.Range(0, 2) * 2 - 1;
             }
             else
             {
-                yAxis = Random.Range(-7, 7);
+                yAxis = Random.Range(5, 10);
             }
+            
             var enemy = Instantiate(Enemy1, new Vector2(xAxis, yAxis), Quaternion.identity);
             var enemyWeaponController = enemy.GetComponent<EnemyWeaponController>();
             var enemyController = enemy.GetComponent<EnemyController>();
-            enemyWeaponController.BulletSpeed += Level * .75f;
-            enemyWeaponController.FireRate += Level * .75f;
+            enemyWeaponController.BulletSpeed = Level * RogueModifier_Enemy1_BulletSpeed;
+            enemyWeaponController.FireRate = (1f/Level) * RogueModifier_Enemy1_BulletRate;
+            enemyController.EnemySpeed = Level * RogueModifier_Enemy1_Speed; 
         }
-
-        for (int i = 3; i < Level && Level <=10; i++)
+        
+        // start spawning Enemy-Fan
+        for (int i = RogueModifier_EnemyFan_SpawnLevel; i <= Level && Level <= RogueModifier_EnemyFan_SpawnEndLevel; i++)
         {
             int yAxis;
-            int xAxis = Random.Range(-12, 12);
-            if (xAxis > -10 && xAxis < 10)
+            int xAxis = Random.Range(-30,25);
+            if (xAxis >= -18 && xAxis <= 18)
             {
-                yAxis = Random.Range(-6,-8);
+                yAxis = Random.Range(-15,-12);
+                yAxis *= Random.Range(0, 2) * 2 - 1;
             }
             else
             {
-                yAxis = Random.Range(-7, 7);
+                yAxis = Random.Range(5, 10);
             }
             
-            Instantiate(Enemy2, new Vector2(xAxis, yAxis), Quaternion.identity);
-            var enemy = Instantiate(Enemy1, new Vector2(xAxis, yAxis), Quaternion.identity);
+            var enemy = Instantiate(Enemy_Fan, new Vector2(xAxis, yAxis), Quaternion.identity);
             var enemyWeaponController = enemy.GetComponent<EnemyWeaponController>();
-            enemyWeaponController.BulletSpeed += Level * .75f;
-            enemyWeaponController.FireRate += Level * .75f;
-            
+            var enemyController = enemy.GetComponent<EnemyController>();
+            enemyWeaponController.BulletSpeed = Level * RogueModifier_EnemyFan_BulletSpeed;
+            enemyWeaponController.FireRate = 1f/Level * RogueModifier_EnemyFan_BulletRate;
+            enemyController.EnemySpeed = Level * RogueModifier_EnemyFan_Speed; 
+        }
+    }
+    
+    public void DestroyAllEnemies()
+    {
+        foreach (var enemy in EnemiesAlive)
+        {
+                Destroy(enemy.gameObject);
         }
     }
     

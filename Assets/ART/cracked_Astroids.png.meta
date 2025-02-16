@@ -1,16 +1,25 @@
 fileFormatVersion: 2
-guid: 81c63335ff6fa024ab3a1feb06f8d7ad
+guid: 7974cff6074b34602a86f3631730a24f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2945246880629265694
-    second: Astroids_0
+      213: 2707927870775908192
+    second: cracked_Astroids_0
   - first:
-      213: 599752121860617863
-    second: Astroids_1
+      213: 6896754095478012488
+    second: cracked_Astroids_1
   - first:
-      213: -2367007006154059656
-    second: Astroids_2
+      213: -4819403677832250314
+    second: cracked_Astroids_2
+  - first:
+      213: 7742225319563541731
+    second: cracked_Astroids_3
+  - first:
+      213: -571233926870112626
+    second: cracked_Astroids_4
+  - first:
+      213: -8523406962586102035
+    second: cracked_Astroids_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,72 +124,15 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Astroids_0
+      name: cracked_Astroids_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 222
-        width: 162
-        height: 117
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2eae34011916027d0800000000000000
-      internalID: -2945246880629265694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Astroids_1
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 56
-        width: 77
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 786f9c0906fb25800800000000000000
-      internalID: 599752121860617863
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Astroids_2
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 5
+        x: 1
+        y: 369
         width: 217
         height: 187
       alignment: 0
@@ -191,8 +143,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87093593ba3b62fd0800000000000000
-      internalID: -2367007006154059656
+      spriteID: 0675afe1d0e749520800000000000000
+      internalID: 2707927870775908192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cracked_Astroids_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 365
+        width: 217
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84aff2c2f4136bf50800000000000000
+      internalID: 6896754095478012488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cracked_Astroids_2
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 360
+        width: 217
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63cf899a3e90e1db0800000000000000
+      internalID: -4819403677832250314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cracked_Astroids_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 229
+        width: 162
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecbe9778e8e17b60800000000000000
+      internalID: 7742225319563541731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cracked_Astroids_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 235
+        width: 162
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86614125c19218f0800000000000000
+      internalID: -571233926870112626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cracked_Astroids_5
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 110
+        width: 77
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6d6f6c686c6b980800000000000000
+      internalID: -8523406962586102035
       vertices: []
       indices: 
       edges: []
@@ -211,9 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Astroids_0: -2945246880629265694
-      Astroids_1: 599752121860617863
-      Astroids_2: -2367007006154059656
+      cracked_Astroids_0: 2707927870775908192
+      cracked_Astroids_1: 6896754095478012488
+      cracked_Astroids_2: -4819403677832250314
+      cracked_Astroids_3: 7742225319563541731
+      cracked_Astroids_4: -571233926870112626
+      cracked_Astroids_5: -8523406962586102035
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

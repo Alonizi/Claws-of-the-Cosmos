@@ -36,11 +36,10 @@ public class AudioManager : MonoBehaviour
     public AudioClip colide ;
     public AudioClip Fire ;
     public AudioClip ShipHit ;
+    public AudioClip DestroySFX ;
+
     private bool hasPlayed = false;
     private bool hasPlayed2 = false;
-
-    
-     
 
     void Start()
     {

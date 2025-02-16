@@ -1,12 +1,15 @@
 using System;
 using System.Collections;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Serialization;
+using Random = UnityEngine.Random;
 using Vector3 = UnityEngine.Vector3;
 
 public class EnemyController : MonoBehaviour
 {
-    [SerializeField] private ParticleSystem DestroyVfx;
+    
+    [SerializeField] private GameObject DestroyVfx;
     [SerializeField] private AudioSource DestroySfx;
     [SerializeField] private AudioSource HitSfx;
     [SerializeField] private ParticleSystem HitVfx; 
@@ -15,6 +18,7 @@ public class EnemyController : MonoBehaviour
     public float Health = 15; 
     public int EnemyType = 1; 
     public float EnemySpeed = 0.00075f;
+    public float ShootingRange = 10;
     private PlayerMovement Player;
     private EnemyWeaponController Weapons;
     private Vector3 PlayerPosition;
@@ -22,12 +26,14 @@ public class EnemyController : MonoBehaviour
     private float EnemiesTimeCounter;
     private SpriteRenderer ShipRenderer;
     private Vector3 InitialPlayerPosition;
-    private Vector3 InitialPlayerDirection; 
+    private Vector3 InitialPlayerDirection;
+    private AudioManager Audio;
+    private Rigidbody2D RigidComponent;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        Audio = FindAnyObjectByType<AudioManager>();
         ShipRenderer = transform.GetChild(0).GetComponent<SpriteRenderer>();
         //SpawnPosition = new Vector3(-11f, 6, 0f);
         Player = FindAnyObjectByType<PlayerMovement>();
@@ -36,8 +42,8 @@ public class EnemyController : MonoBehaviour
         GameManager = FindAnyObjectByType<GameManager>();
         InitialPlayerPosition = Player.transform.position;
         InitialPlayerDirection =  PlayerPosition - transform.position;
-
-    }
+        RigidComponent = GetComponent<Rigidbody2D>();
+    }   
 
     // Update is called once per frame
     void Update()
@@ -58,25 +64,25 @@ public class EnemyController : MonoBehaviour
                  break;
          }
     }
-    
+    //Enemy 1 
     private void Type1()
     {
         var di = Vector3.MoveTowards(transform.position, PlayerPosition, EnemySpeed*Time.deltaTime);
         transform.position = di;
         var axis = Weapons.Aim(PlayerDirection);
-        if (IsWithinCameraBorders(transform.position))
+        if (IsWithinCameraBorders(transform.position,15,10) && IsNearPlayer(ShootingRange))
         {
             Weapons.AutoFire(PlayerDirection, axis);
         }
     }
-
+    //Enemy_Fan
     private void Type2()
     {
         EnemiesTimeCounter += Time.deltaTime;
         transform.rotation = Quaternion.Euler(0,0,2*EnemiesTimeCounter*Mathf.Rad2Deg);
         var di = Vector3.MoveTowards(transform.position, PlayerPosition, EnemySpeed*Time.deltaTime);
         transform.position = di;
-        if (IsWithinCameraBorders(transform.position))
+        if (IsWithinCameraBorders(transform.position,15,10))
         {
             Weapons.FireDiagonally(axisDegree: 2 * EnemiesTimeCounter * Mathf.Rad2Deg);
         }
@@ -104,26 +110,46 @@ public class EnemyController : MonoBehaviour
             }
             if (Health == 0)
             {
-                DestroyVfx.Play();
+                Instantiate(DestroyVfx, transform.position, quaternion.identity).GetComponent<ParticleSystem>().Play();
+                //DestroyVfx.transform.parent = 
+                //DestroyVfx.Play();
                 DestroySfx.Play();
-                Destroy(gameObject,1f);
-                StartCoroutine(DisappearShip());
+                Audio.PlayeSFX(Audio.DestroySFX);
+                Destroy(gameObject,.2f);
+                //StartCoroutine(DisappearShip());
                 FireVfx.Stop();
-                DestroyVfx.Play();
+                //DestroyVfx.Play();
                 GameManager.IncreaseScore();
-                
             }
         }
+        
     }
 
-    private bool IsWithinCameraBorders(Vector2 position)
+    private void OnCollisionExit2D(Collision2D other)
     {
-        return (position.x > -9 && position.x < 9) && (position.y > -5 && position.y < 5);
+        StartCoroutine(ZeroForce());
     }
 
-    private IEnumerator DisappearShip()
+    private bool IsWithinCameraBorders(Vector2 position , float cameraX , float cameraY)
     {
-        yield return new WaitForSeconds(0.1f);
-        ShipRenderer.enabled = false; 
+        return (position.x > -cameraX && position.x < cameraX) && (position.y > -cameraY && position.y < cameraY);
     }
+
+    private bool IsNearPlayer(float distance)
+    {
+        return PlayerDirection.magnitude <= distance; 
+    }
+
+    /// <summary>
+    /// Reset Force and Velocity
+    /// </summary>
+    /// <returns></returns>
+    private IEnumerator ZeroForce()
+    {
+        yield return new WaitForSeconds(Random.Range(2, 6));
+        RigidComponent.totalForce = Vector2.zero;
+        RigidComponent.linearVelocity = Vector2.zero;
+    }
+    
+    
 }

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 635223723330894563}
   - component: {fileID: 5268530429480541218}
   - component: {fileID: 6473041139413902350}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -318,7 +318,15 @@ MonoBehaviour:
     m_Id: f9df9b56-decf-4df1-8a7a-11c71fc9c6af
     m_Processors: 
     m_Interactions: 
-    m_SingletonActionBindings: []
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 7c8b9eff-cb64-4172-917f-2e356c369fce
+      m_Path: <XInputController>/rightStick
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Turn
+      m_Flags: 0
     m_Flags: 0
 --- !u!1 &1067405538256462403
 GameObject:
@@ -330,7 +338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6166490716347416417}
   - component: {fileID: 2090619949123955613}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -418,7 +426,7 @@ GameObject:
   - component: {fileID: 3447273048837390579}
   - component: {fileID: 833059259569998618}
   - component: {fileID: 981810300028924571}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: JetEngin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5357,7 +5365,7 @@ GameObject:
   - component: {fileID: 2036652961635763764}
   - component: {fileID: 3506809842762221787}
   - component: {fileID: 6757023833261950282}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftEngin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10197,7 +10205,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2574007370119594052}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: BulletSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10230,7 +10238,7 @@ GameObject:
   - component: {fileID: 6052049240381803958}
   - component: {fileID: 6706853678362882802}
   - component: {fileID: 7603750531585232553}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RigthEngin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15140,6 +15148,10 @@ PrefabInstance:
     - target: {fileID: 2535690384151392938, guid: 8903ac92282f974458f96fad7defe0ed, type: 3}
       propertyPath: m_Name
       value: PlayerShootEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 2535690384151392938, guid: 8903ac92282f974458f96fad7defe0ed, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
