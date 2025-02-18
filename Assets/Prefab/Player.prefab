@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 635223723330894563}
   - component: {fileID: 5268530429480541218}
   - component: {fileID: 6473041139413902350}
+  - component: {fileID: 7547023552253789178}
+  - component: {fileID: 7514968315369396702}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -106,7 +108,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657842780142773158}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9d33d6e1da8fe648be60a53265f7005, type: 3}
   m_Name: 
@@ -142,7 +144,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
@@ -271,7 +273,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657842780142773158}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 604b20c60266642b4a4a78de026eeda0, type: 3}
   m_Name: 
@@ -328,6 +330,139 @@ MonoBehaviour:
       m_Action: Turn
       m_Flags: 0
     m_Flags: 0
+--- !u!114 &7547023552253789178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657842780142773158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_Priority: 2
+  m_ComponentVersion: 5
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_AlphaCutoff: 0.1
+  m_ApplyToSortingLayers: 00000000356e1ed4356e1ed4
+  m_ShapePath:
+  - {x: -0.528844, y: -0.41912764, z: 0}
+  - {x: -0.58829415, y: -0.22950101, z: 0}
+  - {x: -0.28037176, y: 0.31937963, z: 0}
+  - {x: 0.010962899, y: 0.68248594, z: 0}
+  - {x: 0.09135146, y: 0.60411215, z: 0}
+  - {x: 0.2219071, y: 0.41912833, z: 0}
+  - {x: 0.59461594, y: -0.26950496, z: 0}
+  - {x: 0.4640603, y: -0.47174776, z: 0}
+  - {x: 0.26674363, y: -0.6213707, z: 0}
+  - {x: -0.20096931, y: -0.6498705, z: 0}
+  m_ShapePathHash: -1617646754
+  m_InstanceId: 0
+  m_ShadowShape2DComponent: {fileID: 0}
+  m_ShadowShape2DProvider:
+    rid: -2
+  m_ShadowCastingSource: 1
+  m_ShadowMesh:
+    m_Mesh: {fileID: 0}
+    m_LocalBounds:
+      m_Center: {x: 0.003160894, y: 0.016307712, z: 0}
+      m_Extent: {x: 0.59145504, y: 0.6661782, z: 0}
+    m_EdgeProcessing: 1
+    m_TrimEdge: 0.05
+    m_FlipX: 0
+    m_FlipY: 0
+    m_InitialTrim: 0
+  m_CastingOption: 1
+  m_PreviousTrimEdge: 0.05
+  m_PreviousEdgeProcessing: 1
+  m_PreviousShadowCastingSource: 1
+  m_PreviousShadowShape2DSource: {fileID: 4783666808682810983}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+--- !u!114 &7514968315369396702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657842780142773158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67adf1c6f500c4969aba3d8adaf5e27a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BulletSpeed: 10
+  BulletPrefab: {fileID: 213158929682750827, guid: 389f2dabff74341a6884a7d0b87d5483, type: 3}
+  Thrusters:
+    m_Name: Thrusters
+    m_Type: 0
+    m_ExpectedControlType: Vector2
+    m_Id: fe54af35-e68f-48ba-810c-f013cf0295e3
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: bda69721-2599-4d71-b9d5-8a26c4a123ea
+      m_Path: <XInputController>/leftStick
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Thrusters
+      m_Flags: 0
+    m_Flags: 0
+  Fire:
+    m_Name: Fire
+    m_Type: 1
+    m_ExpectedControlType: Button
+    m_Id: 3e65e7ed-1e0e-46ae-af4b-ef8690f95d13
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 929ccb7b-0c4b-4621-86bc-1cae566360fc
+      m_Path: <XInputController>/rightShoulder
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Fire
+      m_Flags: 0
+    m_Flags: 0
+  Aim:
+    m_Name: Aim
+    m_Type: 0
+    m_ExpectedControlType: Vector2
+    m_Id: dd313062-f977-4536-aed1-721421d3a284
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: f0a839e1-d7d3-4c08-b4bf-25d439c06be6
+      m_Path: <XInputController>/rightStick
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Aim
+      m_Flags: 0
+    m_Flags: 0
+  Boost:
+    m_Name: Boost
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: acbae3af-ca09-4719-9626-160ea5b38ece
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  RotationDampening: 0.13
 --- !u!1 &1067405538256462403
 GameObject:
   m_ObjectHideFlags: 0
