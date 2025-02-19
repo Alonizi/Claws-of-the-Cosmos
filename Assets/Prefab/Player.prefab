@@ -456,13 +456,22 @@ MonoBehaviour:
   Boost:
     m_Name: Boost
     m_Type: 0
-    m_ExpectedControlType: 
+    m_ExpectedControlType: Axis
     m_Id: acbae3af-ca09-4719-9626-160ea5b38ece
     m_Processors: 
     m_Interactions: 
-    m_SingletonActionBindings: []
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 87b2f31d-7bb4-47bd-9b3b-a4f803b8629b
+      m_Path: <XInputController>/rightTrigger
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Boost
+      m_Flags: 0
     m_Flags: 0
   RotationDampening: 0.13
+  BoostMultiplier: 20
 --- !u!1 &1067405538256462403
 GameObject:
   m_ObjectHideFlags: 0

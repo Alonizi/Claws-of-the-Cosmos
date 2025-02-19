@@ -11,6 +11,7 @@ public class ShipController : MonoBehaviour
     [SerializeField] private InputAction Aim;
     [SerializeField] private InputAction Boost;
     [SerializeField] private float RotationDampening =.5f;
+    [SerializeField] private float BoostMultiplier = 2f;
     private Rigidbody2D RigidComp;
 
     private void OnEnable()
@@ -18,6 +19,7 @@ public class ShipController : MonoBehaviour
         Aim.Enable();
         Thrusters.Enable();
         Fire.Enable();
+        Boost.Enable();
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -31,6 +33,7 @@ public class ShipController : MonoBehaviour
     {
         MoveShip();
         FireBullet(RigidComp.rotation);
+        SpeedBoost();
     }
     
     private void FixedUpdate()
@@ -61,12 +64,18 @@ public class ShipController : MonoBehaviour
     {
         if (Fire.WasReleasedThisFrame())
         {
-            
             var bullet = Instantiate(BulletPrefab, transform.GetChild(0).position, Quaternion.Euler(0, 0, angle));
             var direction = new Vector3(Mathf.Cos((angle+90)*Mathf.Deg2Rad), Mathf.Sin((angle+90)*Mathf.Deg2Rad), 0).normalized;
             bullet.GetComponent<Rigidbody2D>().linearVelocity = BulletSpeed * direction;
-            
         }
+    }
+
+    private void SpeedBoost()
+    {
+        
+        var boostValue = Boost.ReadValue<float>() * BoostMultiplier;
+        Debug.Log($"Boost : {boostValue}");
+        RigidComp.AddForce(boostValue*RigidComp.linearVelocity); 
     }
 }
 
