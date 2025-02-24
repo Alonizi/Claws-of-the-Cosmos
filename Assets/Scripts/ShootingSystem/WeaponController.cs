@@ -20,9 +20,9 @@ public class WeaponController : MonoBehaviour
     /// </summary>
     void Update()
     {
-            MouseDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
-            ShipAxis = AimShip();
-            Fire(ShipAxis);
+        MouseDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        ShipAxis = AimShip();
+        Fire(ShipAxis);
     }
     
     /// <summary>
