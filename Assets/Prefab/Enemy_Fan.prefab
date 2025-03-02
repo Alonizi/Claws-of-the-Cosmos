@@ -632,6 +632,7 @@ GameObject:
   - component: {fileID: 4462243367285556024}
   - component: {fileID: 1478411508688187931}
   - component: {fileID: 4350916649071543194}
+  - component: {fileID: -2184577383498206070}
   m_Layer: 6
   m_Name: Enemy_Fan
   m_TagString: Untagged
@@ -672,7 +673,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4651066095778079871}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ae28dbf0c86e47648103703da23b1fd, type: 3}
   m_Name: 
@@ -693,7 +694,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4651066095778079871}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 16e12ae2d75874ea791ee72f45792eb6, type: 3}
   m_Name: 
@@ -816,6 +817,23 @@ PolygonCollider2D:
       - {x: 0.58778536, y: -0.80901694}
       - {x: 0.9510565, y: 0.30901712}
   m_UseDelaunayMesh: 0
+--- !u!114 &-2184577383498206070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4651066095778079871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f227a7c5f24a28bda649b259b24a4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 5
+  EnemySpeed: 0.34
+  BulletPrefab: {fileID: 213158929682750827, guid: 93eac3a49343e4962aa9ca56da029644, type: 3}
+  FireRate: 0.5
+  BulletSpeed: 3
 --- !u!1 &5211989333590650772
 GameObject:
   m_ObjectHideFlags: 0
