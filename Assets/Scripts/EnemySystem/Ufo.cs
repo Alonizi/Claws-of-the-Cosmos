@@ -5,9 +5,9 @@ namespace EnemySystem
 {
     public class Ufo:VehicleController,IEnemy
     {
-        [SerializeField] private GameObject BulletPrefab;
-        [SerializeField] private float FireRate;
-        [SerializeField] private float BulletSpeed;
+        [SerializeField] public GameObject BulletPrefab;
+        [SerializeField] public float FireRate;
+        [SerializeField] public float BulletSpeed;
         
         private float WeaponTimeCounter = 0;
         private float RotationTimeCounter; 

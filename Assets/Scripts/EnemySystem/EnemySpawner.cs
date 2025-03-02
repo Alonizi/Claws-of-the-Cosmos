@@ -1,20 +1,19 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using EnemySystem;
 using Unity.Mathematics;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class EnemySpawner : MonoBehaviour
 {
-    private GameManager Manager; 
-    private List<EnemyController> EnemiesAlive; 
-    private float GameTime;
-    public int Level;
-    public int LastLevel = 10;
-    [SerializeField] private GameObject Enemy1;
-    [SerializeField] private GameObject Enemy_Fan;
-    [SerializeField] private GameObject Enemy3;
+    [SerializeField] private int Level;
+    [SerializeField] private int LastLevel = 10;
+    [SerializeField] private VehicleController FighterJetEnemy;
+    [SerializeField] private VehicleController UfoEnemy;
+
+    
     
     [Header("Rogue Modifiers for Enemy_1 ")]
     [SerializeField] private int RogueModifier_Enemy1_SpawnLevel = 1;
@@ -30,6 +29,10 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private float RogueModifier_EnemyFan_BulletRate = 1;
     [SerializeField] private float RogueModifier_EnemyFan_BulletSpeed = 1;
     
+    private GameManager Manager; 
+    private List<VehicleController> EnemiesAlive; 
+    private float GameTime;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -40,7 +43,7 @@ public class EnemySpawner : MonoBehaviour
     private void Update()
     {
         GameTime += Time.deltaTime;
-        EnemiesAlive = FindObjectsByType<EnemyController>(0).ToList();
+        EnemiesAlive = FindObjectsByType<VehicleController>(0).ToList();
         if (EnemiesAlive.Count <= 0)
         {
             if (Level < LastLevel+1)
@@ -76,12 +79,10 @@ public class EnemySpawner : MonoBehaviour
                 yAxis = Random.Range(5, 10);
             }
             
-            var enemy = Instantiate(Enemy1, new Vector2(xAxis, yAxis), Quaternion.identity);
-            var enemyWeaponController = enemy.GetComponent<EnemyWeaponController>();
-            var enemyController = enemy.GetComponent<EnemyController>();
-            enemyWeaponController.BulletSpeed = Level * RogueModifier_Enemy1_BulletSpeed;
-            enemyWeaponController.FireRate = (1f/Level) * RogueModifier_Enemy1_BulletRate;
-            enemyController.EnemySpeed = Level * RogueModifier_Enemy1_Speed; 
+            FighterJet fighterJet =(FighterJet) Instantiate(FighterJetEnemy, new Vector2(xAxis, yAxis), Quaternion.identity);
+            fighterJet.BulletSpeed = Level * RogueModifier_Enemy1_BulletSpeed;
+            fighterJet.FireRate = (1f/Level) * RogueModifier_Enemy1_BulletRate;
+            fighterJet.EnemySpeed = Level * RogueModifier_Enemy1_Speed; 
         }
         
         // start spawning Enemy-Fan
@@ -98,13 +99,10 @@ public class EnemySpawner : MonoBehaviour
             {
                 yAxis = Random.Range(5, 10);
             }
-            
-            var enemy = Instantiate(Enemy_Fan, new Vector2(xAxis, yAxis), Quaternion.identity);
-            var enemyWeaponController = enemy.GetComponent<EnemyWeaponController>();
-            var enemyController = enemy.GetComponent<EnemyController>();
-            enemyWeaponController.BulletSpeed = Level * RogueModifier_EnemyFan_BulletSpeed;
-            enemyWeaponController.FireRate = 1f/Level * RogueModifier_EnemyFan_BulletRate;
-            enemyController.EnemySpeed = Level * RogueModifier_EnemyFan_Speed; 
+            Ufo ufo = (Ufo) Instantiate(UfoEnemy, new Vector2(xAxis, yAxis), Quaternion.identity);
+            ufo.BulletSpeed = Level * RogueModifier_EnemyFan_BulletSpeed;
+            ufo.FireRate = 1f/Level * RogueModifier_EnemyFan_BulletRate;
+            ufo.EnemySpeed = Level * RogueModifier_EnemyFan_Speed; 
         }
     }
     

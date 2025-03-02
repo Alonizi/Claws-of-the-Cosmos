@@ -8,6 +8,12 @@ namespace EnemySystem
         private Vector3 InitialPlayerPosition;
         private Vector3 InitialPlayerDirection;
 
+        private void Start()
+        {
+            InitialPlayerPosition = Player.transform.position;
+            InitialPlayerDirection =  InitialPlayerPosition - transform.position;
+        }
+
         private void Update()
         {
             Aim();

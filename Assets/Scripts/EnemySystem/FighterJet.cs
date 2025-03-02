@@ -5,11 +5,11 @@ namespace EnemySystem
 {
     public class FighterJet : VehicleController, IEnemy
     {
+        [SerializeField] public float FireRate;
+        [SerializeField] public float BulletSpeed;
+        [SerializeField] public float ShootingRange = 10;
         [SerializeField] private GameObject BulletPrefab;
-        [SerializeField] private float FireRate;
-        [SerializeField] private float BulletSpeed;
-        [SerializeField] private float ShootingRange = 10;
-
+        
         private float TimeCounter = 0;
         private float Axis ;
         private Vector2 PlayerDirection;
@@ -20,8 +20,7 @@ namespace EnemySystem
         {
             PlayerPosition = Player.transform.position;
             PlayerDirection =  PlayerPosition - (Vector2)transform.position;
-            var di = Vector3.MoveTowards(transform.position, PlayerPosition, EnemySpeed*Time.deltaTime);
-            transform.position = di;
+            Move();
             Axis = Aim();
             if (IsWithinCameraBorders(transform.position,15,10) && IsNearPlayer(ShootingRange))
             {
@@ -49,7 +48,8 @@ namespace EnemySystem
 
         public void Move()
         {
-            throw new System.NotImplementedException();
+            var di = Vector3.MoveTowards(transform.position, PlayerPosition, EnemySpeed*Time.deltaTime);
+            transform.position = di;
         }
         
         private bool IsNearPlayer(float distance)

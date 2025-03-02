@@ -627,8 +627,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 434887448604272186}
-  - component: {fileID: -7903171337965255948}
-  - component: {fileID: 3716796875131196062}
   - component: {fileID: 4462243367285556024}
   - component: {fileID: 1478411508688187931}
   - component: {fileID: 4350916649071543194}
@@ -666,42 +664,6 @@ Transform:
   - {fileID: 1717043395958275997}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-7903171337965255948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4651066095778079871}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ae28dbf0c86e47648103703da23b1fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DestroyVfx: {fileID: 8034338699585990179, guid: ddafb3f299a6c43be8a40ac29904af23, type: 3}
-  DestroySfx: {fileID: 8723112753642370657}
-  HitSfx: {fileID: 7880396677854461480}
-  HitVfx: {fileID: 4739632240852753227}
-  FireVfx: {fileID: 6123991465226946692}
-  Health: 1
-  EnemyType: 2
-  EnemySpeed: 0.34
-  ShootingRange: 10
---- !u!114 &3716796875131196062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4651066095778079871}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16e12ae2d75874ea791ee72f45792eb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FireRate: 0.5
-  BulletSpeed: 3
-  BulletPrefab: {fileID: 213158929682750827, guid: 93eac3a49343e4962aa9ca56da029644, type: 3}
 --- !u!58 &4462243367285556024
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -829,7 +791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02f227a7c5f24a28bda649b259b24a4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 5
+  Health: 1
   EnemySpeed: 0.34
   BulletPrefab: {fileID: 213158929682750827, guid: 93eac3a49343e4962aa9ca56da029644, type: 3}
   FireRate: 0.5

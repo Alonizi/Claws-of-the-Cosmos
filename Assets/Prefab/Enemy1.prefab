@@ -139,8 +139,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6219874785850580409}
   - component: {fileID: 7711765118529988324}
-  - component: {fileID: 2075985486483948152}
-  - component: {fileID: 5652329221833251094}
   - component: {fileID: 5266054449175734174}
   - component: {fileID: -7170164896155379031}
   - component: {fileID: -6580957275587132008}
@@ -234,42 +232,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2075985486483948152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1226552201144154063}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ae28dbf0c86e47648103703da23b1fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DestroyVfx: {fileID: 8034338699585990179, guid: ddafb3f299a6c43be8a40ac29904af23, type: 3}
-  DestroySfx: {fileID: 7743145809524474556}
-  HitSfx: {fileID: 5590391620868217376}
-  HitVfx: {fileID: 7918686802992597798}
-  FireVfx: {fileID: 4858437094759953557}
-  Health: 1
-  EnemyType: 1
-  EnemySpeed: 0.35
-  ShootingRange: 15
---- !u!114 &5652329221833251094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1226552201144154063}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16e12ae2d75874ea791ee72f45792eb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FireRate: 1.5
-  BulletSpeed: 0.55
-  BulletPrefab: {fileID: 213158929682750827, guid: 93eac3a49343e4962aa9ca56da029644, type: 3}
 --- !u!60 &5266054449175734174
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -473,10 +435,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 1
   EnemySpeed: 0.35
-  BulletPrefab: {fileID: 213158929682750827, guid: 93eac3a49343e4962aa9ca56da029644, type: 3}
   FireRate: 1.5
   BulletSpeed: 0.55
   ShootingRange: 15
+  BulletPrefab: {fileID: 213158929682750827, guid: 93eac3a49343e4962aa9ca56da029644, type: 3}
 --- !u!1 &1376200533150804625
 GameObject:
   m_ObjectHideFlags: 0

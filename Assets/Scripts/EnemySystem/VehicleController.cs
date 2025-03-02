@@ -6,8 +6,8 @@ namespace EnemySystem
 {
     public class VehicleController:MonoBehaviour
     {
-        [SerializeField] protected int Health = 5 ;
-        [SerializeField] protected float EnemySpeed = 0.00075f;
+        [SerializeField] public int Health = 5 ;
+        [SerializeField] public float EnemySpeed = 0.00075f;
         
         protected PlayerMovement Player;
         protected Rigidbody2D RigidComponent;
@@ -30,13 +30,13 @@ namespace EnemySystem
                 Destroy(other.gameObject);
                 Health--;
                 
-                if (Health == 0)
+                if (Health <= 0)
                 {
                     //Instantiate(DestroyVfx, transform.position, quaternion.identity).GetComponent<ParticleSystem>().Play();
                     //DestroyVfx.transform.parent = 
                     //DestroyVfx.Play();
                     //DestroySfx.Play();
-                    Audio.PlayeSFX(Audio.DestroySFX);
+                    //Audio.PlayeSFX(Audio.DestroySFX);
                     Destroy(gameObject,.2f);
                     //StartCoroutine(DisappearShip());
                     //FireVfx.Stop();
@@ -49,7 +49,6 @@ namespace EnemySystem
         {
             StartCoroutine(ZeroForce());
         }
-        
         protected bool IsWithinCameraBorders(Vector2 position , float cameraX , float cameraY)
         {
             return (position.x > -cameraX && position.x < cameraX) && (position.y > -cameraY && position.y < cameraY);
