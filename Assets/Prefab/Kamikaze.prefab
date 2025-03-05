@@ -15258,6 +15258,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba47a5a603c0446b81ce42bfa2999d81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyVfx: {fileID: 5727168361027738262}
+  DestroySfx: {fileID: 5547489065429384025}
   Health: 5
   EnemySpeed: 7
 --- !u!50 &4006832728588183835

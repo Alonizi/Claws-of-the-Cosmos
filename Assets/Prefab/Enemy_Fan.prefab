@@ -791,6 +791,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02f227a7c5f24a28bda649b259b24a4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyVfx: {fileID: 8899741864977290636}
+  DestroySfx: {fileID: 8723112753642370657}
   Health: 1
   EnemySpeed: 0.34
   BulletPrefab: {fileID: 213158929682750827, guid: 93eac3a49343e4962aa9ca56da029644, type: 3}

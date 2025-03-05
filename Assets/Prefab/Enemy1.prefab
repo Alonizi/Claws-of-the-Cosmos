@@ -433,6 +433,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c729ee4302544e8ae32d857a68a9d43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyVfx: {fileID: 5243175325977946342}
+  DestroySfx: {fileID: 7743145809524474556}
   Health: 1
   EnemySpeed: 0.35
   FireRate: 1.5
