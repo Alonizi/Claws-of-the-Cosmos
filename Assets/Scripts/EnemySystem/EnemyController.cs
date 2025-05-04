@@ -111,14 +111,10 @@ public class EnemyController : MonoBehaviour
             if (Health == 0)
             {
                 Instantiate(DestroyVfx, transform.position, quaternion.identity).GetComponent<ParticleSystem>().Play();
-                //DestroyVfx.transform.parent = 
-                //DestroyVfx.Play();
                 DestroySfx.Play();
                 Audio.PlayeSFX(Audio.DestroySFX);
                 Destroy(gameObject,.2f);
-                //StartCoroutine(DisappearShip());
                 FireVfx.Stop();
-                //DestroyVfx.Play();
                 GameManager.IncreaseScore();
             }
         }
