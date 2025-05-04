@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     [Header("Referance Player")]
     [SerializeField] GameObject playerPrefab;
     PlayerMovement player;
-    EnemyController enemyController;
+    //EnemyController enemyController;
 
     [Header("Health Settings")]
     public float maxHealth = 100f;
@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
         //UpdateTimerUI();
 
         player = FindObjectOfType<PlayerMovement>();
-        enemyController = FindObjectOfType<EnemyController>();
+        //enemyController = FindObjectOfType<EnemyController>();
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         orgPosition = scoreText.transform.localPosition;
         timeRemaining = timeLimit;
